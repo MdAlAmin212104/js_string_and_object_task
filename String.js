@@ -13,3 +13,20 @@ for (let i = 0; i<=myString.length; i++){
     
 }
 console.log( count);
+
+
+/*
+### Task-2: 
+Count how many times a string has the letter `a` or `A`
+*/
+
+let count2 = 0;
+const text = "lorem, All my troubles seemed so far away.  Did you mean to ask for a pangram? A pangram is a sentence that contains every letter of the alphabet at least once. If "
+const textFormated = text.toLowerCase();
+for (let i = 0; i<=textFormated.length; i++){
+      if (textFormated[i] == 'a'){
+            count2++;
+      }
+}
+console.log(count2);
+
