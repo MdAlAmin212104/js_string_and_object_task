@@ -47,3 +47,27 @@ const student = {
 };
 
 console.log(student.physics.marks);
+
+
+/*
+### Task-4
+
+Count the `number of properties`.
+
+**Input:**
+<br>
+```js
+*/
+
+let student1 = {
+    name: 'Ariana Grande',
+    age: 21,
+    city: 'Gaibandha',
+    isStudent: true
+};
+
+const countOfProperty = Object.keys(student1);
+console.log(countOfProperty);
+
+//**Output:**
+ //4
