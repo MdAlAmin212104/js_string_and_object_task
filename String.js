@@ -30,3 +30,20 @@ for (let i = 0; i<=textFormated.length; i++){
 }
 console.log(count2);
 
+
+/*
+### Task-3: 
+
+Check whether a string contains all the vowels `a`, `e`, `i`, `o`, `u` 
+
+*/
+
+let text1 = "lorem, All my troubles seemed so far away.  Did you mean to ask for a pangram? A pangram is a sentence that contains every letter of the alphabet at least once. If "
+const textFormated1 = text1.toLowerCase();
+for (let i = 0; i<textFormated1.length; i++){
+      if ( 'a' && 'e' && 'i' && 'o' && 'u' == textFormated1[i] ){
+            console.log("found");
+      }
+      
+}
+
