@@ -12,7 +12,7 @@ for (let i = 0; i<=myString.length; i++){
     }
     
 }
-//console.log( count);
+console.log( count);
 
 
 /*
@@ -28,7 +28,7 @@ for (let i = 0; i<=textFormated.length; i++){
             count2++;
       }
 }
-//console.log(count2);
+console.log(count2);
 
 
 /*
@@ -42,7 +42,7 @@ let text1 = "lorem, All my troubles seemed so far away.  Did you mean to ask for
 const textFormated1 = text1.toLowerCase();
 for (let i = 0; i<textFormated1.length; i++){
       if ( 'a' && 'e' && 'i' && 'o' && 'u' == textFormated1[i] ){
-            //console.log("found");
+            console.log("found");
       }
       
 }
@@ -57,7 +57,7 @@ If a given string has either x, replace x by y. if the given string has X, repla
 
 const stringToReplace = "loremx ipsum dolorX sixt Xamet, exit consecteturX";
 const output = stringToReplace.replaceAll("X", "Y").replaceAll("x", "y");
-//console.log(output);
+console.log(output);
 
 
 /*
